@@ -5,6 +5,13 @@
     background-position: center center;
 }
 
+.nav-line::before {
+    width: 75%;
+    height: 2px;
+    background-color: white;
+
+}
+
 .dropdown-item:hover {
     color: #0078ff;
     background-color: transparent;
@@ -33,8 +40,9 @@ h1 {
 .line::before {
     content: '';
     position: absolute;
-    width: 20%;
-    color: #0078ff;
-    height: 3px;
+    width: 18%;
+    background-color: #0078ff;
+    height: 4px;
     top: 100%;
+    margin: 16px 0;
 }
