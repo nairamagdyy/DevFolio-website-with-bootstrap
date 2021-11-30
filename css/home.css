@@ -9,8 +9,20 @@ body {
     background-position: center center;
 }
 
+.nav-line-visible::before {
+    content: '';
+    position: absolute;
+    margin-left: 5px;
+    height: 2px;
+    top: 100%;
+    left: 0;
+    width: 70%;
+    background-color: white;
+}
+
 .nav-line::before {
     content: '';
+    margin-left: 5px;
     position: absolute;
     height: 2px;
     top: 100%;
