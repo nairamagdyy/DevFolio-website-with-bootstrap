@@ -124,3 +124,11 @@ h1 {
     box-shadow: 0 0 0 10px #cde1f8;
     padding: 1rem;
 }
+
+.card-img img{
+    transition: transform 1s;
+} 
+
+.card:hover .card-img img {
+    transform: scale(1.3);
+}
