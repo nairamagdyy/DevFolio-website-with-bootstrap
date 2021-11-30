@@ -1,5 +1,3 @@
-
-
 .bg-img {
     background-image: url(..//images/bg.jfif);
     background-attachment: fixed;
@@ -12,6 +10,31 @@
     background-color: transparent;
 }
 
+.w-85 {
+    width: 85%;
+}
+
 h1 {
     font-size: 4.5rem;
+}
+
+.progress {
+    border-radius: 0;
+}
+
+.text-clr {
+    color: #4e4e4e;
+}
+
+.line {
+    position: relative;
+}
+
+.line::before {
+    content: '';
+    position: absolute;
+    width: 20%;
+    color: #0078ff;
+    height: 3px;
+    top: 100%;
 }
