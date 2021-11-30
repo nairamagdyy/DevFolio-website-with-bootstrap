@@ -32,7 +32,7 @@ body {
     transition: all 0.5s;
 }
 
-.nav-item:hover .nav-line::before{
+.nav-item:hover .nav-line::before {
     visibility: visible;
     width: 70%;
     background-color: white;
@@ -71,4 +71,44 @@ h1 {
     height: 4px;
     top: 100%;
     margin: 16px 0;
+}
+
+.line2::before {
+    content: '';
+    position: absolute;
+    width: 3%;
+    background-color: #0078ff;
+    height: 4px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 16px 0;
+}
+
+.my-7 {
+    margin-top: 6rem;
+    margin-bottom: 7rem;
+}
+
+.fs-l {
+    font-size: 3rem;
+}
+
+.border-12 {
+    border: solid 12px #0078ff;
+    transition: all 0.2s;
+}
+
+.p-45 {
+    padding: 2rem;
+}
+
+.rounded-20 {
+    border-radius: 20px;
+}
+
+.service:hover .border-12 {
+    background-color: #0078ff;
+    color: white;
+    box-shadow: 0 0 0 12px #cde1f8;
 }
