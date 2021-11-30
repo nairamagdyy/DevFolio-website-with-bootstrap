@@ -1,0 +1,17 @@
+
+
+.bg-img {
+    background-image: url(..//images/bg.jfif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.dropdown-item:hover {
+    color: #0078ff;
+    background-color: transparent;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
