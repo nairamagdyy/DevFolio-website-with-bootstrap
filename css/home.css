@@ -112,3 +112,15 @@ h1 {
     color: white;
     box-shadow: 0 0 0 12px #cde1f8;
 }
+
+.counter {
+    background-image: url(..//images/sbg.jfif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.shadow-blue {
+    box-shadow: 0 0 0 10px #cde1f8;
+    padding: 1rem;
+}
