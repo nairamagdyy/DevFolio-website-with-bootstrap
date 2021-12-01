@@ -1,0 +1,17 @@
+.w-85 {
+    width: 85%;
+}
+.bg-img {
+    background-image: url(..//images/tree.jfif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border: 1px blue solid;
+    border-radius: 50%;
+    background-color: white;
+}
