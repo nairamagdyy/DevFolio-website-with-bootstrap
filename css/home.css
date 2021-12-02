@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    color: #4e4e4e;
 }
 
 .bg-img {
@@ -161,4 +162,15 @@ h1 {
 
 .hv-title:hover {
     color: #0d6efd;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 0 6px #cde1f8;
+}
+
+.i-hv:hover{
+    background-color: #0078ff;
+    color: white;
+    border: none;
+    box-shadow: 0 0 0 5px #cde1f8;
 }
