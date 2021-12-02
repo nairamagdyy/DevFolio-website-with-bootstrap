@@ -9,6 +9,13 @@ body {
     background-position: center center;
 }
 
+.bg-img2 {
+    background-image: url(..//images/tree.jfif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
 .nav-line-visible::before {
     content: '';
     position: absolute;
@@ -125,10 +132,21 @@ h1 {
     padding: 1rem;
 }
 
-.card-img img{
+.card-img img {
     transition: transform 1s;
-} 
+}
 
 .card:hover .card-img img {
     transform: scale(1.3);
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.h-60 {
+    height: 60%;
 }
