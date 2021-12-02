@@ -65,80 +65,301 @@ h1 {
 }
 
 @keyframes typing {
-    0% {content: "F|";}
-    2% {content: "Fr|";}
-    4% {content: "Fre|";}
-    6% {content: "Free|";}
-    8% {content: "Freel|";}
-    10% {content: "Freela|";}
-    12% {content: "Freelan|";}
-    14% {content: "Freelanc|";}
-    16% {content: "Freelance|";}
-    17% {content: "Freelancer|";}
-    19% {content: "Freelance|";}
-    20% {content: "Freelanc|";}
-    21% {content: "Freelan|";}
-    22% {content: "Freela|";}
-    23% {content: "Freel|";}
-    24% {content: "Free|";}
-    25% {content: "Fre|";}
-    26% {content: "Fr|";}
-    27% {content: "F|";}
-    28% {content: "|";}
-    30% {content: "D|";}
-    32% {content: "De|";}
-    34% {content: "Dev|";}
-    36% {content: "Deve|";}
-    38% {content: "Devel|";}
-    40% {content: "Develo|";}
-    42% {content: "Develop|";}
-    44% {content: "Develope|";}
-    46% {content: "Developer|";}
-    47% {content: "Develope|";}
-    48% {content: "Develop|";}
-    49% {content: "Develo|";}
-    50% {content: "Devel|";}
-    51% {content: "Deve|";}
-    52% {content: "Dev|";}
-    53% {content: "De|";}
-    55% {content: "Des|";}
-    57% {content: "Desi|";}
-    59% {content: "Desig|";}
-    61% {content: "Design|";}
-    63% {content: "Designe|";}
-    64% {content: "Designer|";}
-    65% {content: "Designe|";}
-    66% {content: "Design|";}
-    67% {content: "Desig|";}
-    68% {content: "Desi|";}
-    69% {content: "Des|";}
-    70% {content: "De|";}
-    71% {content: "D|";}
-    72% {content: "|";}
-    74% {content: "P|";}
-    76% {content: "Ph|";}
-    78% {content: "Pho|";}
-    80% {content: "Phot|";}
-    82% {content: "Photo|";}
-    84% {content: "Photog|";}
-    86% {content: "Photogr|";}
-    87% {content: "Photogra|";}
-    88% {content: "Photograp|";}
-    89% {content: "Photograph|";}
-    89.8% {content: "Photographe|";}
-    90% {content: "Photographer|";}
-    90.4% {content: "Photographe|";}
-    90.8% {content: "Photograph|";}
-    91% {content: "Photograp|";}
-    92% {content: "Photogra|";}
-    93% {content: "Photogr|";}
-    94% {content: "Photog|";}
-    95% {content: "Photo|";}
-    96% {content: "Phot|";}
-    97% {content: "Pho|";}
-    98% {content: "Ph|";}
-    99% {content: "P|";}
-    100% {content: "|";}
+    0% {
+        content: "F|";
+    }
+
+    2% {
+        content: "Fr|";
+    }
+
+    4% {
+        content: "Fre|";
+    }
+
+    6% {
+        content: "Free|";
+    }
+
+    8% {
+        content: "Freel|";
+    }
+
+    10% {
+        content: "Freela|";
+    }
+
+    12% {
+        content: "Freelan|";
+    }
+
+    14% {
+        content: "Freelanc|";
+    }
+
+    16% {
+        content: "Freelance|";
+    }
+
+    17% {
+        content: "Freelancer|";
+    }
+
+    19% {
+        content: "Freelance|";
+    }
+
+    20% {
+        content: "Freelanc|";
+    }
+
+    21% {
+        content: "Freelan|";
+    }
+
+    22% {
+        content: "Freela|";
+    }
+
+    23% {
+        content: "Freel|";
+    }
+
+    24% {
+        content: "Free|";
+    }
+
+    25% {
+        content: "Fre|";
+    }
+
+    26% {
+        content: "Fr|";
+    }
+
+    27% {
+        content: "F|";
+    }
+
+    28% {
+        content: "|";
+    }
+
+    30% {
+        content: "D|";
+    }
+
+    32% {
+        content: "De|";
+    }
+
+    34% {
+        content: "Dev|";
+    }
+
+    36% {
+        content: "Deve|";
+    }
+
+    38% {
+        content: "Devel|";
+    }
+
+    40% {
+        content: "Develo|";
+    }
+
+    42% {
+        content: "Develop|";
+    }
+
+    44% {
+        content: "Develope|";
+    }
+
+    46% {
+        content: "Developer|";
+    }
+
+    47% {
+        content: "Develope|";
+    }
+
+    48% {
+        content: "Develop|";
+    }
+
+    49% {
+        content: "Develo|";
+    }
+
+    50% {
+        content: "Devel|";
+    }
+
+    51% {
+        content: "Deve|";
+    }
+
+    52% {
+        content: "Dev|";
+    }
+
+    53% {
+        content: "De|";
+    }
+
+    55% {
+        content: "Des|";
+    }
+
+    57% {
+        content: "Desi|";
+    }
+
+    59% {
+        content: "Desig|";
+    }
+
+    61% {
+        content: "Design|";
+    }
+
+    63% {
+        content: "Designe|";
+    }
+
+    64% {
+        content: "Designer|";
+    }
+
+    65% {
+        content: "Designe|";
+    }
+
+    66% {
+        content: "Design|";
+    }
+
+    67% {
+        content: "Desig|";
+    }
+
+    68% {
+        content: "Desi|";
+    }
+
+    69% {
+        content: "Des|";
+    }
+
+    70% {
+        content: "De|";
+    }
+
+    71% {
+        content: "D|";
+    }
+
+    72% {
+        content: "|";
+    }
+
+    74% {
+        content: "P|";
+    }
+
+    76% {
+        content: "Ph|";
+    }
+
+    78% {
+        content: "Pho|";
+    }
+
+    80% {
+        content: "Phot|";
+    }
+
+    82% {
+        content: "Photo|";
+    }
+
+    84% {
+        content: "Photog|";
+    }
+
+    86% {
+        content: "Photogr|";
+    }
+
+    87% {
+        content: "Photogra|";
+    }
+
+    88% {
+        content: "Photograp|";
+    }
+
+    89% {
+        content: "Photograph|";
+    }
+
+    89.8% {
+        content: "Photographe|";
+    }
+
+    90% {
+        content: "Photographer|";
+    }
+
+    90.4% {
+        content: "Photographe|";
+    }
+
+    90.8% {
+        content: "Photograph|";
+    }
+
+    91% {
+        content: "Photograp|";
+    }
+
+    92% {
+        content: "Photogra|";
+    }
+
+    93% {
+        content: "Photogr|";
+    }
+
+    94% {
+        content: "Photog|";
+    }
+
+    95% {
+        content: "Photo|";
+    }
+
+    96% {
+        content: "Phot|";
+    }
+
+    97% {
+        content: "Pho|";
+    }
+
+    98% {
+        content: "Ph|";
+    }
+
+    99% {
+        content: "P|";
+    }
+
+    100% {
+        content: "|";
+    }
 
 }
 
@@ -256,4 +477,47 @@ h1 {
     color: white;
     border: none;
     box-shadow: 0 0 0 5px #cde1f8;
+}
+
+
+.count::after {
+    content: "450";
+    animation: counter 0.5s;
+}
+
+@keyframes counter {
+    0% {
+        content: "0";
+    }
+    10% {
+        content: "50";
+    }
+    20% {
+        content: "100";
+    }
+    30% {
+        content: "150";
+    }
+    40% {
+        content: "184";
+    }
+    50% {
+        content: "200";
+    }
+    60% {
+        content: "250";
+    }
+    70% {
+        content: "300";
+    }
+    80% {
+        content: "350";
+    }
+    90% {
+        content: "400";
+    }
+
+    100% {
+        content: "450";
+    }
 }
